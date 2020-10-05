@@ -1,0 +1,17 @@
+.home {
+    padding: 20px;
+    min-height: 100%;
+    flex-grow: 1;
+    img {
+        width: 300px;
+        animation: logoSpin 20s linear infinite;
+        @keyframes logoSpin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(1turn);
+            }
+        }
+    }
+}

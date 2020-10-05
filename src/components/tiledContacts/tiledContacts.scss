@@ -1,0 +1,49 @@
+.tiled-contacts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: stretch;
+    gap: 20px;
+
+    @media screen and (max-width: 1599px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 575px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tiled-contacts__card {
+        margin-bottom: 15px;
+        .tiled-contacts__media {
+            height: 240px;
+        }
+        .tiled-contacts__content {
+            color: rgba(0, 0, 0, 0.65);
+            overflow-wrap: break-word;
+            h2 {
+                font-weight: 400;
+                font-size: 17px;
+                white-space: nowrap;
+            }
+            p {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                font-size: 14px;
+                font-variant: tabular-nums;
+                line-height: 1.5715;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &.copy-content {
+                    color: #1890ff !important;
+                    cursor: pointer;
+                }
+            }
+            hr {
+                margin: 12px 0;
+            }
+        }
+    }
+}

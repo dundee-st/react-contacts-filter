@@ -1,0 +1,74 @@
+.statistic {
+    margin-bottom: 14px !important;
+    padding: 10px !important;
+    background-color: #fafafa !important;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.85);
+    .statistic__headerOfCount {
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.45);
+        white-space: nowrap;
+    }
+    .statistic__wrapper {
+        padding: 16px 16px 30px;
+        background-color: #fff;
+        box-shadow: 0 5px 5px hsla(0, 0%, 40%, 0.1);
+        h3 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .statistic__count {
+            font-size: 24px;
+            font-weight: 600;
+            .statistic__counter {
+                font-weight: 400;
+            }
+            .statistic__predominate {
+                span {
+                    background-color: #ffe58f;
+                    color: rgba(0, 0, 0, 0.65);
+                    overflow-wrap: break-word;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .statistic__nationalities {
+        margin-top: 40px;
+        margin-top: 35px;
+        .statistic__nationalities-counters {
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 10px 20px;
+            @media screen and (max-width: 1599px) {
+                grid-template-columns: repeat(6, 1fr);
+            }
+            @media screen and (max-width: 1200px) {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            @media screen and (max-width: 992px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @media screen and (max-width: 768px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media screen and (max-width: 575px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            span {
+                color: rgba(0, 0, 0, 0.85);
+                white-space: nowrap;
+                &:first-of-type {
+                    font-weight: bold;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 1.5715;
+                }
+            }
+        }
+    }
+}

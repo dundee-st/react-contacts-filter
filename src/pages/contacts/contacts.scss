@@ -1,0 +1,67 @@
+.contacts {
+    padding: 1.25vw 2.6vw;
+    .contacts__head {
+        margin-bottom: 20px;
+        h3 {
+            color: rgba(0, 0, 0, 0.85);
+            font-weight: 600;
+            font-size: 32px;
+            margin: 0;
+        }
+        .contacts__button {
+            button {
+                width: 32px !important;
+                min-width: 25px;
+                height: 32px;
+                padding: 2.4px 0;
+                box-sizing: border-box;
+                span {
+                    svg {
+                        fill: rgba(0, 0, 0, 0.65);
+                    }
+                }
+                &.active {
+                    background: #1890ff;
+                    svg {
+                        fill: white;
+                    }
+                }
+            }
+            button.update {
+                padding-right: 0;
+                padding-left: 0;
+                text-align: center;
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+                vertical-align: -0.5px;
+                margin-right: 8px;
+                color: rgba(0, 0, 0, 0.65);
+                background: #fff;
+                border: 1px dashed #d9d9d9;
+                &:hover {
+                    border: 1px dashed #1890ff;
+                    svg {
+                        fill: #1890ff;
+                    }
+                }
+                &.spin {
+                    border: 1px dashed #1890ff;
+                    svg {
+                        fill: #1890ff;
+                        animation: spin 2s linear infinite;
+                    }
+
+                    @keyframes spin {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(-1turn);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.header {
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(51, 51, 51, 0.33);
+    line-height: inherit !important;
+    text-align: center;
+    box-sizing: border-box;
+    height: 65px;
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
+    .header__nav {
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            li {
+                padding: 0 8px;
+                a {
+                    color: #1890ff;
+                    font-size: 14px;
+                    text-decoration: none;
+                    &.active {
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+}

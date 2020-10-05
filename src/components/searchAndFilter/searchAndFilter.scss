@@ -1,0 +1,42 @@
+.search__wrapper {
+    margin-bottom: 14px !important;
+    padding: 10px !important;
+    background-color: #fafafa !important;
+
+    .search {
+        padding: 16px;
+        background-color: #fff;
+        box-shadow: 0 5px 5px hsla(0, 0%, 40%, 0.1);
+        .search__form {
+            .search__fullName,
+            .search__nationality,
+            .search__gender {
+                width: 100%;
+            }
+            @media screen and (max-width: 959px) {
+                margin: 0 !important;
+            }
+        }
+        .clear_button {
+            background: none;
+            border: none;
+            display: flex;
+            outline: none;
+            color: #1890ff;
+            align-items: center;
+            cursor: pointer;
+            &:hover {
+                color: royalblue;
+            }
+            svg {
+                margin-right: 7px;
+            }
+            &:disabled {
+                color: grey;
+            }
+            @media screen and (max-width: 959px) {
+                margin-top: 10px;
+            }
+        }
+    }
+}
