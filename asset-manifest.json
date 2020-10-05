@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wezom-test-contacts/static/css/main.b9962730.chunk.css",
-    "main.js": "/wezom-test-contacts/static/js/main.2f48a17e.chunk.js",
-    "main.js.map": "/wezom-test-contacts/static/js/main.2f48a17e.chunk.js.map",
+    "main.js": "/wezom-test-contacts/static/js/main.d09f3e73.chunk.js",
+    "main.js.map": "/wezom-test-contacts/static/js/main.d09f3e73.chunk.js.map",
     "runtime-main.js": "/wezom-test-contacts/static/js/runtime-main.0c56daf3.js",
     "runtime-main.js.map": "/wezom-test-contacts/static/js/runtime-main.0c56daf3.js.map",
     "static/js/2.55f4aa21.chunk.js": "/wezom-test-contacts/static/js/2.55f4aa21.chunk.js",
     "static/js/2.55f4aa21.chunk.js.map": "/wezom-test-contacts/static/js/2.55f4aa21.chunk.js.map",
     "index.html": "/wezom-test-contacts/index.html",
-    "precache-manifest.a7c877d3b4ad04c5122938d5767a537e.js": "/wezom-test-contacts/precache-manifest.a7c877d3b4ad04c5122938d5767a537e.js",
+    "precache-manifest.58047627d4456e1d63758fd248f15ea0.js": "/wezom-test-contacts/precache-manifest.58047627d4456e1d63758fd248f15ea0.js",
     "service-worker.js": "/wezom-test-contacts/service-worker.js",
     "static/css/main.b9962730.chunk.css.map": "/wezom-test-contacts/static/css/main.b9962730.chunk.css.map",
     "static/js/2.55f4aa21.chunk.js.LICENSE.txt": "/wezom-test-contacts/static/js/2.55f4aa21.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.0c56daf3.js",
     "static/js/2.55f4aa21.chunk.js",
     "static/css/main.b9962730.chunk.css",
-    "static/js/main.2f48a17e.chunk.js"
+    "static/js/main.d09f3e73.chunk.js"
   ]
 }

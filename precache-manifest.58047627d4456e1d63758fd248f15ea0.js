@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c6eeb00cd9eb6d896cd4a886ccd85a6",
+    "revision": "f63fe99c06201f7b8c7d195cf250be89",
     "url": "/wezom-test-contacts/index.html"
   },
   {
-    "revision": "00a9222c0099f47e7a38",
+    "revision": "412489b462263f889301",
     "url": "/wezom-test-contacts/static/css/main.b9962730.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wezom-test-contacts/static/js/2.55f4aa21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00a9222c0099f47e7a38",
-    "url": "/wezom-test-contacts/static/js/main.2f48a17e.chunk.js"
+    "revision": "412489b462263f889301",
+    "url": "/wezom-test-contacts/static/js/main.d09f3e73.chunk.js"
   },
   {
     "revision": "a477f015829e37c8a0ff",
